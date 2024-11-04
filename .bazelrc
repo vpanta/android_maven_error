@@ -1,0 +1,6 @@
+# Settings required for bazelbuild/rules_android
+common --experimental_google_legacy_api
+common --experimental_enable_android_migration_apis
+
+# Whether or not this exists has no effect on the build
+common --android_sdk=@androidsdk//:sdk

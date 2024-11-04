@@ -1,0 +1,2 @@
+# Uncommenting the following line will make the BUILD work
+# android_sdk_repository(name = "androidsdk")
